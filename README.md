@@ -19,6 +19,7 @@ conversation memory and analysis of uploaded documents and images.
 -   **Custom GUI:** Clean Tkinter interface independent of bot logic.
 
 ## 🏗 Architecture
+[terminal 1](/images/img1.png)
 
 The system consists of two nodes communicating asynchronously over ROS 2
 topics.
