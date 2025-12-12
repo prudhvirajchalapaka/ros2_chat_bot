@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'ai_bot = ros2_chat_bot.ai_bot:main',
             'user_client = ros2_chat_bot.user_node:main',
+            'gui_client = ros2_chat_bot.gui_client:main',
         ],
     },
 )

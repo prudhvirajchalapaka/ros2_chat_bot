@@ -14,7 +14,7 @@ class AIBotNode(Node):
             self.get_logger().error("❌ No API Key found! Did you run 'export GEMINI_API_KEY=...'?")
         else:
             genai.configure(api_key=api_key)
-            self.model = genai.GenerativeModel('gemini-2.5-flash-lite') # Using 'Flash' model for speed
+            self.model = genai.GenerativeModel('gemini-robotics-er-1.5-preview') # Using 'Flash' model for speed
             self.get_logger().info("✅ Gemini AI Connected Successfully!")
 
         # Subscriber & Publisher
